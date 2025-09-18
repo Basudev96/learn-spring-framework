@@ -8,15 +8,16 @@ public class SuperContra implements GamingConsole{
 	}
 
 	public void down() {
+		System.out.println("sit down");
 	}
 
 	public void left() {
+		System.out.println("go left");
 		
 	}
-
-	@Override
+	
 	public void right() {
-		
+		System.out.println("go right");
 	}
 
 }
